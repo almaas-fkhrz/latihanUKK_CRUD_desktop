@@ -525,6 +525,9 @@ public class FrmBuku extends javax.swing.JFrame {
         } else {
             TampilData();
         }
+        btnSimpan.setEnabled(true);
+        btnUbah.setEnabled(false);
+        btnHapus.setEnabled(false);
         Clear();
     }//GEN-LAST:event_txtCariKeyReleased
 
